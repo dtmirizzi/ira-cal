@@ -1,6 +1,6 @@
 ## IRA Calculator 
 
-(SITE)[https://dtmirizzi.github.io/ira-cal/]
+[SITE](https://dtmirizzi.github.io/ira-cal/)
 
 I was having drinks the other night and someone said there exists no calculator or max IRA contrib limits. 
 
