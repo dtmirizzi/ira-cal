@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Roth IRA Contribution Limits</h1>
+
+    <label for="years">Choose a Year:</label>
+
+    <select name="years" id="years">
+        <option value="2023">2023</option>
+    </select>
+
+    <p></p>
+
+    <input type="checkbox" id="married" name="married">
+    <label for="married"> Married filing jointly?</label><br>
+
+    <input type="checkbox" id="old" name="old">
+    <label for="old"> Over the age of 50?</label><br>
+
+    <form action="javascript:drawChart(this)">
+        <label for="income">Taxable income (<a href="https://www.omnicalculator.com/finance/magi">MAGI</a>):</label>
+        <input type="text" id="income" name="income"><br><br>
+        <input type="submit" value="Calculate">
+    </form>
+      
+    <div id="contribution"></div>
+
+    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+
+    <h2>Why you wasted your time calculating this?</h2>
+    <p> 
+        Pretty simply its more than likely not worth your time to correctly put your maxes into these accounts. <br>
+        The best way forward imo is just to put all of your yearly money into and Trad IRA if you are in these income ranges.<br>
+        At the end of the year just perform a backdoor roth conversion. This will simplfy your life and really will only increase your tax burden by the 
+        invested gain from the last year. In most cases that may be a tax burden of less thank $500.<br>
+        <br>
+        I am not a finnacial advisor, just a beleiver that its just better to keep your finnances simple. 
+    </p>
+</body>
+
+</html>
