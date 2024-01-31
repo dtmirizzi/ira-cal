@@ -81,7 +81,7 @@ function drawChart() {
     };
 
     if (sal && sal > 0) {
-        document.getElementById('contribution').innerHTML ="<p>" + "Trad Contribution: $" + calculateTrad(sal).toFixed(2) + " Roth Contribution:  $"+ (contribLimit - calculateTrad(sal)).toFixed(2) + "</p>";
+        document.getElementById('contribution').innerHTML ="<p>" + "Trad Contribution: $" + calculateTrad(sal).toFixed(2) + " </p> <p> Roth Contribution:  $"+ (contribLimit - calculateTrad(sal)).toFixed(2) + "</p>";
     }
 
     var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
