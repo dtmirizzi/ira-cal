@@ -19,6 +19,20 @@ function drawChart() {
                 "contrib_limit": 6500,
                 "contrib_limit_over_50": 7500,
             }
+        },
+        "2022": {
+            "single": {
+                "magi_min": 129000,
+                "magi_max": 144000,
+                "contrib_limit": 6000,
+                "contrib_limit_over_50": 7000,
+            },
+            "married": {
+                "magi_min": 204000,
+                "magi_max": 214000,
+                "contrib_limit": 6000,
+                "contrib_limit_over_50": 7000,
+            }
         }
     }
 
