@@ -6,20 +6,6 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
 
     let policy = {
-        "2023": {
-            "single": {
-                "magi_min": 138000,
-                "magi_max": 153000,
-                "contrib_limit": 6500,
-                "contrib_limit_over_50": 7500,
-            },
-            "married": {
-                "magi_min": 218000,
-                "magi_max": 228000,
-                "contrib_limit": 6500,
-                "contrib_limit_over_50": 7500,
-            }
-        },
         "2024": {
             "single": {
                 "magi_min": 146000,
@@ -32,6 +18,34 @@ function drawChart() {
                 "magi_max": 240000,
                 "contrib_limit": 7000,
                 "contrib_limit_over_50": 8000,
+            }
+        },
+        "2025": {
+            "single": {
+                "magi_min": 150000,
+                "magi_max": 165000,
+                "contrib_limit": 7000,
+                "contrib_limit_over_50": 8000,
+            },
+            "married": {
+                "magi_min": 236000,
+                "magi_max": 246000,
+                "contrib_limit": 7000,
+                "contrib_limit_over_50": 8000,
+            }
+        },
+        "2023": {
+            "single": {
+                "magi_min": 138000,
+                "magi_max": 153000,
+                "contrib_limit": 6500,
+                "contrib_limit_over_50": 7500,
+            },
+            "married": {
+                "magi_min": 218000,
+                "magi_max": 228000,
+                "contrib_limit": 6500,
+                "contrib_limit_over_50": 7500,
             }
         },
         "2022": {
